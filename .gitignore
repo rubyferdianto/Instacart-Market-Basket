@@ -1,0 +1,32 @@
+# Ignore all CSV files
+*.csv
+
+# Ignore data directory contents but keep the directory structure
+data/*.csv
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# macOS system files
+.DS_Store
+
+# IDE files
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Log files
+*.log
